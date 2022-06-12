@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <link rel="icon" type=“image/png” href="insta_favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <main class="right flex justify-center items-center">
+      <!-- <div class="left mr-10 sm:hidden">
+        <img class="w-96" src="src_left.png" alt="">
+    </div> -->
+
+      <div
+        class="right w-96 mt-8 flex flex-col justify-center items-center border-2"
+      >
+        <img
+          class="logo w-44 py-10 cursor-pointer"
+          src="insta_logo.png"
+          alt="insta logo"
+        />
+
+        <input
+          class="w-72 p-2 text-sm border-2"
+          type="text"
+          placeholder="Phone number, username, or email"
+        />
+        <input
+          class="w-72 p-2 mt-2 text-sm border-2"
+          type="password"
+          placeholder="Password"
+        />
+        <button
+          id="loginn"
+          class="login text-sm bg-blue-500 w-72 text-center py-2 text-white m-4 rounded-md cursor-pointer"
+          type="submit"
+          value="submit"
+        >
+          Log in
+        </button>
+        <p class="or text-xs text-gray-400 font-semibold">OR</p>
+        <a href="https://www.facebook.com/login/" target="_blank">
+          <p class="flex m-6 text-sm text-blue-900 font-bold cursor-pointer">
+            <img class="w-8 h-5" src="favicon.png" alt="fblogo" /> Log in with
+            Facebook
+          </p>
+        </a>
+
+        <p class="forgot text-xs text-blue-900 cursor-pointer">
+          Forgot password?
+        </p>
+
+        <p class="mt-8 text-sm">
+          Dont have an account?<span
+            class="font-bold text-blue-400 cursor-pointer"
+          >
+            Sign up</span
+          >
+        </p>
+
+        <p class="mt-8 mb-4">Get the app</p>
+        <ul class="flex cursor-pointer space-x-3 mb-4">
+          <li>
+            <a
+              href="https://apps.apple.com/in/app/instagram/id389801252"
+              target="_blank"
+              ><img class="w-32" src="appstore.png" alt="apple"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_IN&gl=US"
+              target="_blank"
+              ><img class="w-32" src="googleplay.png" alt="android"
+            /></a>
+          </li>
+        </ul>
+        <p class="admin text-xs font-mono ">CREATED BY JATIN KHATRI</p>
+        <ul class="flex space-x-3">
+          <li>
+            <a href="https://www.instagram.com/thejatinkhatri/" target="_blank">
+              <img class="w-8" src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="insta"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/jatin-chawla-2a167720a"
+              target="_blank"
+            >
+              <img class="w-8" src="linkedin.png" alt="linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/thejatinchawla" target="_blank">
+              <img class="w-8" src="githublogo.png" alt="github"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script>
+      let btn = document.getElementById("loginn");
+      btn.addEventListener("click", function () {
+        alert(
+          "This website is created only for fun, Yours id and password will be secure with you only..."
+        );
+        alert("Thankyou for visiting---  Jatin Chawla..♥ :) ");
+      });
+    </script>
+  </body>
+</html>
