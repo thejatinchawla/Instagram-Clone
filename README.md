@@ -5,11 +5,9 @@ Created this Instagram login page using Tailwind CSS
 
 
 
-## Demo
+## SCREENSHOT
 
-
-![Screenshot (27)](https://user-images.githubusercontent.com/106448198/192109877-c11acf88-1280-40c5-a26f-5d850fdf5744.png)
-
+![Screenshot (28)](https://user-images.githubusercontent.com/106448198/192110387-80ec86fb-a75f-47b4-98ec-a45db6652174.png)
 
 ## Authors
 
